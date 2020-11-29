@@ -1,0 +1,4 @@
+services:
+#    chambre.example:
+#        class: ChambreBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

@@ -1,0 +1,3 @@
+chambre_homepage:
+    path:     /
+    defaults: { _controller: ChambreBundle:Default:index }

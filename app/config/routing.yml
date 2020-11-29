@@ -1,3 +1,19 @@
+payment:
+    resource: "@PaymentBundle/Resources/config/routing.yml"
+    prefix:   /
+
+administration:
+    resource: "@AdministrationBundle/Resources/config/routing.yml"
+    prefix:   /
+
+chambre:
+    resource: "@ChambreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+client:
+    resource: "@ClientBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
