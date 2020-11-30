@@ -10,13 +10,15 @@ use Doctrine\ORM\Mapping as ORM;
 class Media
 {
     /**
-     * @ORM\Id
      * @ORM\GeneratedValue
+     * @ORM\Id
+     * @ORM\Column(type="integer")
+     *
      */
     private $id;
 
     /**
-     * @ORM\Column (type=string)
+     * @ORM\Column (type="string",nullable=false)
      */
     private $imageUrl;
 }
