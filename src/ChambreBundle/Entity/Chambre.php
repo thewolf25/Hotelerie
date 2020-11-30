@@ -12,8 +12,9 @@ class Chambre
 {
 
     /**
-     * @ORM\Id
      * @ORM\GeneratedValue
+     * @ORM\Id
+     * @ORM\Column(type="integer")
      *
      */
     private $idChambre;

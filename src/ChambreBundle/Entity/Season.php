@@ -12,23 +12,24 @@ class Season
     /**
      * @ORM\Id
      * @ORM\GeneratedValue
+     * @ORM\Column (type="integer")
      */
     private $id;
 
     /**
-     * @Column (type=date)
+     * @ORM\Column(type="date")
      */
     private $dateStart;
     /**
-     * @Column (type=date)
+     * @ORM\Column  (type="date")
      */
     private $dateEnd;
     /**
-     * @ORM\Column (type=float)
+     * @ORM\Column (type="float")
      */
     private $addition;
     /**
-     * @ORM\Column (type=float)
+     * @ORM\Column (type="float")
      */
     private $lowering;
 
