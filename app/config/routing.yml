@@ -3,7 +3,7 @@ payment:
     prefix:   /
 
 administration:
-    resource: "@AdministrationBundle/Resources/config/routing.yml"
+    resource: "@ReservationBundle/Resources/config/routing.yml"
     prefix:   /
 
 chambre:
@@ -11,7 +11,7 @@ chambre:
     prefix:   /
 
 client:
-    resource: "@ClientBundle/Resources/config/routing.yml"
+    resource: "@UserBundle/Resources/config/routing.yml"
     prefix:   /
 
 app:

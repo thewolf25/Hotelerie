@@ -4,6 +4,6 @@ namespace ReservationBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AdministrationBundle extends Bundle
+class ReservationBundle extends Bundle
 {
 }

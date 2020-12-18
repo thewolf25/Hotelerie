@@ -1,3 +1,3 @@
 administration_homepage:
     path:     /
-    defaults: { _controller: AdministrationBundle:Default:index }
+    defaults: { _controller: ReservationBundle:Default:index }

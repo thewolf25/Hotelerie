@@ -17,9 +17,9 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
-            new UserBundle\ClientBundle(),
+            new UserBundle\UserBundle(),
             new ChambreBundle\ChambreBundle(),
-            new ReservationBundle\AdministrationBundle(),
+            new ReservationBundle\ReservationBundle(),
             new PaymentBundle\PaymentBundle(),
         ];
 

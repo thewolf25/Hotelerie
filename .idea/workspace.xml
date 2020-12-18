@@ -20,16 +20,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3cf4f8-5fc1-42bf-8c15-8d09363de286" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/UserBundle/Resources/views/Default/inscription.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserBundle/Resources/views/Default/login.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserBundle/Resources/views/Default/logout.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_11_18_20__5_40_PM.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_11_18_20__5_40_PM.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentBundle/Entity/Cash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentBundle/Entity/Check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentBundle/Entity/Payment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentBundle/Entity/Transfer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReservationBundle/Entity/Hosting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Entity/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Entity/Chambre.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Entity/Chambre.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Entity/Media.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Entity/Media.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Entity/Season.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Entity/Season.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaymentBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaymentBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaymentBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaymentBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaymentBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaymentBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReservationBundle/AdministrationBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReservationBundle/ReservationBundle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReservationBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReservationBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReservationBundle/Entity/Reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReservationBundle/Entity/Reservation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReservationBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReservationBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReservationBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReservationBundle/Resources/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReservationBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReservationBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserBundle/ClientBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/UserBundle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserBundle/Entity/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Entity/Client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserBundle/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/views/Default/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,14 +117,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/console" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\untitled\src\ReservationBundle\Entity" />
+      <recent name="C:\xampp\htdocs\Hotelerie\src\ReservationBundle\Entity" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -140,6 +162,10 @@
       <workItem from="1606729855298" duration="27000" />
       <workItem from="1606729883407" duration="87000" />
       <workItem from="1606729971146" duration="5516000" />
+      <workItem from="1606838225609" duration="1543000" />
+      <workItem from="1607451125217" duration="18000" />
+      <workItem from="1608225793569" duration="16186000" />
+      <workItem from="1608294585254" duration="11011000" />
     </task>
     <servers />
   </component>
@@ -159,6 +185,20 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="578" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608300974057">
+      <screen x="80" y="0" width="1456" height="864" />
+    </state>
+    <state x="578" y="234" key="#com.intellij.fileTypes.FileTypeChooser/80.0.1456.864@80.0.1456.864" timestamp="1608300974057" />
+    <state x="613" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1608309106467">
+      <screen x="79" y="0" width="1457" height="864" />
+    </state>
+    <state x="613" y="114" key="#com.intellij.ide.util.MemberChooser/78.0.1458.864@78.0.1458.864" timestamp="1608234601425" />
+    <state x="613" y="114" key="#com.intellij.ide.util.MemberChooser/79.0.1457.864@79.0.1457.864" timestamp="1608309106467" />
+    <state x="614" y="114" key="#com.intellij.ide.util.MemberChooser/80.0.1456.864@80.0.1456.864" timestamp="1608242546378" />
+    <state x="582" y="219" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608302647292">
+      <screen x="80" y="0" width="1456" height="864" />
+    </state>
+    <state x="582" y="219" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/80.0.1456.864@80.0.1456.864" timestamp="1608302647292" />
     <state x="2409" y="355" key="#com.intellij.tools.ToolEditorDialog" timestamp="1606689102186">
       <screen x="1920" y="152" width="1360" height="728" />
     </state>
@@ -178,35 +218,40 @@
     </state>
     <state x="570" y="301" key="FrameworkEditDialogDimensionKey/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606080945690" />
     <state x="570" y="301" key="FrameworkEditDialogDimensionKey/78.0.1458.864@78.0.1458.864" timestamp="1606732981306" />
-    <state width="1415" height="223" key="GridCell.Tab.0.bottom" timestamp="1606734325556">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state width="1413" height="223" key="GridCell.Tab.0.bottom" timestamp="1608248283795">
+      <screen x="80" y="0" width="1456" height="864" />
     </state>
     <state width="1317" height="179" key="GridCell.Tab.0.bottom/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606691761504" />
     <state width="1415" height="224" key="GridCell.Tab.0.bottom/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606088851277" />
     <state width="1415" height="223" key="GridCell.Tab.0.bottom/78.0.1458.864@78.0.1458.864" timestamp="1606734325556" />
-    <state width="1415" height="223" key="GridCell.Tab.0.center" timestamp="1606734325556">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state width="1413" height="223" key="GridCell.Tab.0.bottom/80.0.1456.864@80.0.1456.864" timestamp="1608248283795" />
+    <state width="1413" height="223" key="GridCell.Tab.0.center" timestamp="1608248283794">
+      <screen x="80" y="0" width="1456" height="864" />
     </state>
     <state width="1317" height="179" key="GridCell.Tab.0.center/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606691761504" />
     <state width="1415" height="224" key="GridCell.Tab.0.center/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606088851277" />
     <state width="1415" height="223" key="GridCell.Tab.0.center/78.0.1458.864@78.0.1458.864" timestamp="1606734325556" />
-    <state width="1415" height="223" key="GridCell.Tab.0.left" timestamp="1606734325556">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state width="1413" height="223" key="GridCell.Tab.0.center/80.0.1456.864@80.0.1456.864" timestamp="1608248283794" />
+    <state width="1413" height="223" key="GridCell.Tab.0.left" timestamp="1608248283794">
+      <screen x="80" y="0" width="1456" height="864" />
     </state>
     <state width="1317" height="179" key="GridCell.Tab.0.left/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606691761504" />
     <state width="1415" height="224" key="GridCell.Tab.0.left/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606088851277" />
     <state width="1415" height="223" key="GridCell.Tab.0.left/78.0.1458.864@78.0.1458.864" timestamp="1606734325556" />
-    <state width="1415" height="223" key="GridCell.Tab.0.right" timestamp="1606734325556">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state width="1413" height="223" key="GridCell.Tab.0.left/80.0.1456.864@80.0.1456.864" timestamp="1608248283794" />
+    <state width="1413" height="223" key="GridCell.Tab.0.right" timestamp="1608248283794">
+      <screen x="80" y="0" width="1456" height="864" />
     </state>
     <state width="1317" height="179" key="GridCell.Tab.0.right/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606691761504" />
     <state width="1415" height="224" key="GridCell.Tab.0.right/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606088851277" />
     <state width="1415" height="223" key="GridCell.Tab.0.right/78.0.1458.864@78.0.1458.864" timestamp="1606734325556" />
-    <state x="647" y="311" key="NewPhpClassDialog" timestamp="1606732227758">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state width="1413" height="223" key="GridCell.Tab.0.right/80.0.1456.864@80.0.1456.864" timestamp="1608248283794" />
+    <state x="648" y="311" key="NewPhpClassDialog" timestamp="1608300983052">
+      <screen x="80" y="0" width="1456" height="864" />
     </state>
     <state x="716" y="119" key="NewPhpClassDialog/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606088699626" />
     <state x="647" y="311" key="NewPhpClassDialog/78.0.1458.864@78.0.1458.864" timestamp="1606732227758" />
+    <state x="648" y="311" key="NewPhpClassDialog/80.0.1456.864@80.0.1456.864" timestamp="1608300983052" />
     <state x="643" y="356" key="NewPhpFileDialog" timestamp="1606088687251">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
@@ -225,17 +270,22 @@
       <screen x="1920" y="152" width="1360" height="728" />
     </state>
     <state x="2445" y="427" key="SymfonyPathDialog/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606688910033" />
-    <state x="495" y="344" width="721" height="678" key="run.anything.popup" timestamp="1606734325363">
+    <state x="519" y="31" width="580" height="801" key="find.popup" timestamp="1608303359115">
+      <screen x="80" y="0" width="1456" height="864" />
+    </state>
+    <state x="519" y="31" width="580" height="801" key="find.popup/80.0.1456.864@80.0.1456.864" timestamp="1608303359115" />
+    <state x="495" y="344" width="721" height="678" key="run.anything.popup" timestamp="1608235809635">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="484" y="344" width="672" height="677" key="run.anything.popup/62.0.1474.864/1920.152.1360.728@62.0.1474.864" timestamp="1605717831210" />
     <state x="2309" y="442" width="672" height="571" key="run.anything.popup/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606688952985" />
     <state x="495" y="344" width="672" height="677" key="run.anything.popup/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606085830262" />
-    <state x="495" y="344" width="721" height="678" key="run.anything.popup/78.0.1458.864@78.0.1458.864" timestamp="1606734325363" />
-    <state x="2286" y="305" width="672" height="572" key="search.everywhere.popup" timestamp="1606682212221">
-      <screen x="1920" y="152" width="1360" height="728" />
+    <state x="495" y="344" width="721" height="678" key="run.anything.popup/78.0.1458.864@78.0.1458.864" timestamp="1608235809635" />
+    <state x="470" y="182" width="721" height="679" key="search.everywhere.popup" timestamp="1608230192601">
+      <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="2286" y="305" width="672" height="572" key="search.everywhere.popup/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606682212221" />
     <state x="470" y="181" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606084555485" />
+    <state x="470" y="182" width="721" height="679" key="search.everywhere.popup/78.0.1458.864@78.0.1458.864" timestamp="1608230192601" />
   </component>
 </project>
