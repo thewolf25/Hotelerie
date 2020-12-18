@@ -20,13 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3cf4f8-5fc1-42bf-8c15-8d09363de286" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ChambreBundle/Resources/views/Default/chambre.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChambreBundle/Resources/views/Layout/layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_12_18_20__10_51_PM_c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Hotelerie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hotelerie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Entity/Chambre.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Entity/Chambre.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Entity/Season.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Entity/Season.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.htaccess" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,11 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev-foo" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -83,6 +88,8 @@
       <path value="$PROJECT_DIR$/vendor/fig/link-util" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kTH8VZZDheDbysjYWK4aJB01wD" />
@@ -91,7 +98,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -113,6 +123,7 @@
       <command value="symfony doctrine:schema:create" />
       <command value="symfony doctrine:schema:update" />
       <command value="symfony doctrine:schema:update --force" />
+      <command value="composer require --dev doctrine/doctrine-fixtures-bundle" />
     </option>
   </component>
   <component name="RunManager">
@@ -142,6 +153,7 @@
       <workItem from="1607451125217" duration="18000" />
       <workItem from="1608225793569" duration="16186000" />
       <workItem from="1608294585254" duration="17341000" />
+      <workItem from="1608327985200" duration="805000" />
     </task>
     <servers />
   </component>
@@ -153,120 +165,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev-foo" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="578" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608300974057">
-      <screen x="80" y="0" width="1456" height="864" />
-    </state>
-    <state x="578" y="234" key="#com.intellij.fileTypes.FileTypeChooser/80.0.1456.864@80.0.1456.864" timestamp="1608300974057" />
-    <state x="613" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1608322668120">
-      <screen x="79" y="0" width="1457" height="864" />
-    </state>
-    <state x="613" y="114" key="#com.intellij.ide.util.MemberChooser/78.0.1458.864@78.0.1458.864" timestamp="1608234601425" />
-    <state x="613" y="114" key="#com.intellij.ide.util.MemberChooser/79.0.1457.864@79.0.1457.864" timestamp="1608322668120" />
-    <state x="614" y="114" key="#com.intellij.ide.util.MemberChooser/80.0.1456.864@80.0.1456.864" timestamp="1608242546378" />
-    <state x="582" y="219" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608302647292">
-      <screen x="80" y="0" width="1456" height="864" />
-    </state>
-    <state x="582" y="219" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/80.0.1456.864@80.0.1456.864" timestamp="1608302647292" />
-    <state x="2409" y="355" key="#com.intellij.tools.ToolEditorDialog" timestamp="1606689102186">
-      <screen x="1920" y="152" width="1360" height="728" />
-    </state>
-    <state x="2409" y="355" key="#com.intellij.tools.ToolEditorDialog/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606689102186" />
-    <state x="538" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608324214793">
-      <screen x="79" y="0" width="1457" height="864" />
-    </state>
-    <state x="538" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/79.0.1457.864@79.0.1457.864" timestamp="1608324214793" />
-    <state x="2365" y="402" key="ComposerCompositePathDialog" timestamp="1606688881337">
-      <screen x="1920" y="152" width="1360" height="728" />
-    </state>
-    <state x="2365" y="402" key="ComposerCompositePathDialog/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606688881337" />
-    <state x="588" y="188" key="FileChooserDialogImpl" timestamp="1606732977861">
-      <screen x="78" y="0" width="1458" height="864" />
-    </state>
-    <state x="2396" y="310" key="FileChooserDialogImpl/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606688908510" />
-    <state x="588" y="187" key="FileChooserDialogImpl/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606081797667" />
-    <state x="588" y="188" key="FileChooserDialogImpl/78.0.1458.864@78.0.1458.864" timestamp="1606732977861" />
-    <state x="570" y="301" key="FrameworkEditDialogDimensionKey" timestamp="1606732981306">
-      <screen x="78" y="0" width="1458" height="864" />
-    </state>
-    <state x="570" y="301" key="FrameworkEditDialogDimensionKey/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606080945690" />
-    <state x="570" y="301" key="FrameworkEditDialogDimensionKey/78.0.1458.864@78.0.1458.864" timestamp="1606732981306" />
-    <state width="1413" height="223" key="GridCell.Tab.0.bottom" timestamp="1608248283795">
-      <screen x="80" y="0" width="1456" height="864" />
-    </state>
-    <state width="1317" height="179" key="GridCell.Tab.0.bottom/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606691761504" />
-    <state width="1415" height="224" key="GridCell.Tab.0.bottom/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606088851277" />
-    <state width="1415" height="223" key="GridCell.Tab.0.bottom/78.0.1458.864@78.0.1458.864" timestamp="1606734325556" />
-    <state width="1413" height="223" key="GridCell.Tab.0.bottom/80.0.1456.864@80.0.1456.864" timestamp="1608248283795" />
-    <state width="1413" height="223" key="GridCell.Tab.0.center" timestamp="1608248283794">
-      <screen x="80" y="0" width="1456" height="864" />
-    </state>
-    <state width="1317" height="179" key="GridCell.Tab.0.center/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606691761504" />
-    <state width="1415" height="224" key="GridCell.Tab.0.center/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606088851277" />
-    <state width="1415" height="223" key="GridCell.Tab.0.center/78.0.1458.864@78.0.1458.864" timestamp="1606734325556" />
-    <state width="1413" height="223" key="GridCell.Tab.0.center/80.0.1456.864@80.0.1456.864" timestamp="1608248283794" />
-    <state width="1413" height="223" key="GridCell.Tab.0.left" timestamp="1608248283794">
-      <screen x="80" y="0" width="1456" height="864" />
-    </state>
-    <state width="1317" height="179" key="GridCell.Tab.0.left/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606691761504" />
-    <state width="1415" height="224" key="GridCell.Tab.0.left/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606088851277" />
-    <state width="1415" height="223" key="GridCell.Tab.0.left/78.0.1458.864@78.0.1458.864" timestamp="1606734325556" />
-    <state width="1413" height="223" key="GridCell.Tab.0.left/80.0.1456.864@80.0.1456.864" timestamp="1608248283794" />
-    <state width="1413" height="223" key="GridCell.Tab.0.right" timestamp="1608248283794">
-      <screen x="80" y="0" width="1456" height="864" />
-    </state>
-    <state width="1317" height="179" key="GridCell.Tab.0.right/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606691761504" />
-    <state width="1415" height="224" key="GridCell.Tab.0.right/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606088851277" />
-    <state width="1415" height="223" key="GridCell.Tab.0.right/78.0.1458.864@78.0.1458.864" timestamp="1606734325556" />
-    <state width="1413" height="223" key="GridCell.Tab.0.right/80.0.1456.864@80.0.1456.864" timestamp="1608248283794" />
-    <state x="648" y="311" key="NewPhpClassDialog" timestamp="1608300983052">
-      <screen x="80" y="0" width="1456" height="864" />
-    </state>
-    <state x="716" y="119" key="NewPhpClassDialog/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606088699626" />
-    <state x="647" y="311" key="NewPhpClassDialog/78.0.1458.864@78.0.1458.864" timestamp="1606732227758" />
-    <state x="648" y="311" key="NewPhpClassDialog/80.0.1456.864@80.0.1456.864" timestamp="1608300983052" />
-    <state x="643" y="356" key="NewPhpFileDialog" timestamp="1606088687251">
-      <screen x="78" y="0" width="1458" height="864" />
-    </state>
-    <state x="643" y="356" key="NewPhpFileDialog/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606088687251" />
-    <state x="316" y="21" key="SettingsEditor" timestamp="1606732986393">
-      <screen x="78" y="0" width="1458" height="864" />
-    </state>
-    <state x="2142" y="170" key="SettingsEditor/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606689452894" />
-    <state x="316" y="77" key="SettingsEditor/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606081151213" />
-    <state x="316" y="21" key="SettingsEditor/78.0.1458.864@78.0.1458.864" timestamp="1606732986393" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1608321412887">
-      <screen x="79" y="0" width="1457" height="864" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/78.0.1458.864@78.0.1458.864" timestamp="1606730208669" />
-    <state width="498" height="446" key="SwitcherDM/79.0.1457.864@79.0.1457.864" timestamp="1608321412887" />
-    <state x="2445" y="427" key="SymfonyPathDialog" timestamp="1606688910033">
-      <screen x="1920" y="152" width="1360" height="728" />
-    </state>
-    <state x="2445" y="427" key="SymfonyPathDialog/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606688910033" />
-    <state x="519" y="31" width="580" height="801" key="find.popup" timestamp="1608303359115">
-      <screen x="80" y="0" width="1456" height="864" />
-    </state>
-    <state x="519" y="31" width="580" height="801" key="find.popup/80.0.1456.864@80.0.1456.864" timestamp="1608303359115" />
-    <state x="495" y="344" width="721" height="678" key="run.anything.popup" timestamp="1608235809635">
-      <screen x="78" y="0" width="1458" height="864" />
-    </state>
-    <state x="484" y="344" width="672" height="677" key="run.anything.popup/62.0.1474.864/1920.152.1360.728@62.0.1474.864" timestamp="1605717831210" />
-    <state x="2309" y="442" width="672" height="571" key="run.anything.popup/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606688952985" />
-    <state x="495" y="344" width="672" height="677" key="run.anything.popup/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606085830262" />
-    <state x="495" y="344" width="721" height="678" key="run.anything.popup/78.0.1458.864@78.0.1458.864" timestamp="1608235809635" />
-    <state x="470" y="182" width="721" height="679" key="search.everywhere.popup" timestamp="1608230192601">
-      <screen x="78" y="0" width="1458" height="864" />
-    </state>
-    <state x="2286" y="305" width="672" height="572" key="search.everywhere.popup/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606682212221" />
-    <state x="470" y="181" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606084555485" />
-    <state x="470" y="182" width="721" height="679" key="search.everywhere.popup/78.0.1458.864@78.0.1458.864" timestamp="1608230192601" />
   </component>
 </project>
