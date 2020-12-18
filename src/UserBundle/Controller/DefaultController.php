@@ -15,13 +15,17 @@ class DefaultController extends Controller
     }
 
 
-    public function saveAction(Request $request,UserPasswordEncoderInterface $encoder){
+    public function signupAction(Request $request,UserPasswordEncoderInterface $encoder){
 
 
-        $user1 = new Client($request->request->get('nom'), $request->request->get('prenom'),$request->request->get('email'), $request->request->get('telephone') ,$request->request->get('username'), $request->request->get('password'), $request->request->get('identity'));
-        $user1->setPassword($encoder->encodePassword($user1,"ddd"));
+        $user = new Client($request->request->get('nom'), $request->request->get('prenom'),$request->request->get('email'), $request->request->get('telephone') ,$request->request->get('username'), $request->request->get('password'), $request->request->get('identity'));
+
+        $user->setPassword($encoder->encodePassword($user1,"ddd"));
+
+
+
         $em = $this->container->get('doctrine')->getEnityManager();
-        $em->persist($user1);
+        $em->persist($user);
 
         $em->flush();
 

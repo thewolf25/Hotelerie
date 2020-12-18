@@ -7,7 +7,7 @@ use Doctrine\Common\DataFixtures\FixtureInterface;
 use Doctrine\Common\Persistence\ObjectManager;
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Symfony\Component\Security\Core\User\User;
+use UserBundle\Entity\Client;
 
 class LoadUserData implements FixtureInterface, ContainerAwareInterface {
 
@@ -15,10 +15,10 @@ class LoadUserData implements FixtureInterface, ContainerAwareInterface {
 
     public function load(ObjectManager $manager)
     {
-        $user = new User();
+        $user = new Client();
         $user->setUsername('admin');
         $user->setEmail('admin@admin.com');
-        $encoder = this->container->get('security.password_encoder');
+        $encoder = $this->container->get('security.password_encoder');
         $password = $encoder->encodePassword($user, 'pass');
         $user->setPassword($password);
 

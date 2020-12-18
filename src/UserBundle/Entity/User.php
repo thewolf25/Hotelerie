@@ -67,26 +67,6 @@ abstract class User implements UserInterface
      * @ORM\OneToMany(targetEntity="ReservationBundle\Entity\Reservation", mappedBy="client")
      */
     private $reservation;
-    /**
-     * User constructor.
-     * @param $nom
-     * @param $prenom
-     * @param $email
-     * @param $telephone
-     * @param $username
-     * @param $password
-     * @param $identity
-     */
-    public function __construct($nom, $prenom, $email, $telephone, $username, $password, $identity)
-    {
-        $this->nom = $nom;
-        $this->prenom = $prenom;
-        $this->email = $email;
-        $this->telephone = $telephone;
-        $this->username = $username;
-        $this->password = $password;
-        $this->identity = $identity;
-    }
 
     /**
      * @return mixed
