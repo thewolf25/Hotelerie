@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3cf4f8-5fc1-42bf-8c15-8d09363de286" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ChambreBundle/Resources/views/Default/chambre.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChambreBundle/Resources/views/Layout/layout.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Entity/Chambre.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Entity/Chambre.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Entity/Season.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Entity/Season.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserBundle/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Entity/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +136,7 @@
       <workItem from="1606838225609" duration="1543000" />
       <workItem from="1607451125217" duration="18000" />
       <workItem from="1608225793569" duration="16186000" />
-      <workItem from="1608294585254" duration="17341000" />
+      <workItem from="1608294585254" duration="19667000" />
     </task>
     <servers />
   </component>
