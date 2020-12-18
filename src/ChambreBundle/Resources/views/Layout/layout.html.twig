@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>{% block title%} Module {% endblock %}</title>
+    {% block stylesheet %}
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}"/>
+    {% endblock %}
+</head>
+<body>
+<h1>Les Modules de tekup</h1>
+{% block body %}{% endblock %}
+</body>
+</html>

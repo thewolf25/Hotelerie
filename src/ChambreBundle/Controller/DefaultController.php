@@ -6,8 +6,17 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class DefaultController extends Controller
 {
-    public function indexAction()
+    public function listchambresAction()
     {
-        return $this->render('ChambreBundle:Default:index.html.twig');
+
+        $em = $this->container->get('doctrine')->getEntityManager();
+        $chambres = $em->getRepository('ChambreBundle:Chambre')->findAll();
+
+
+        return $this->render("@Chambre/Default/chambre.html.twig",array(
+            'chambres' =>  $chambres
+        ));
+
+
     }
 }
