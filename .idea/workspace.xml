@@ -20,11 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3cf4f8-5fc1-42bf-8c15-8d09363de286" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_11_18_20__5_40_PM.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/services.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserBundle/DataFixtures/ORM/LoadUserData.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/DataFixtures/ORM/LoadUserData.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserBundle/Entity/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Entity/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserBundle/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/config/services.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,9 +104,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -124,8 +127,11 @@
       <command value="s server:start" />
       <command value="symfony doctrine:schema:create" />
       <command value="symfony doctrine:schema:update" />
-      <command value="symfony doctrine:schema:update --force" />
       <command value="composer require --dev doctrine/doctrine-fixtures-bundle" />
+      <command value="symfony doctrine:schema:update --dump-sql" />
+      <command value="symfony doctrine:schema:update --force" />
+      <command value="symfony server:start" />
+      <command value="symfony doctrine:fixtures:load" />
     </option>
   </component>
   <component name="RunManager">
@@ -155,7 +161,7 @@
       <workItem from="1607451125217" duration="18000" />
       <workItem from="1608225793569" duration="16186000" />
       <workItem from="1608294585254" duration="17341000" />
-      <workItem from="1608327985200" duration="1303000" />
+      <workItem from="1608327985200" duration="4868000" />
     </task>
     <task id="LOCAL-00001" summary="add fixters">
       <created>1608328971069</created>
@@ -164,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608328971069</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixing user">
+      <created>1608329438402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608329438402</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +210,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add fixters" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fixters" />
+    <MESSAGE value="fixing user" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing user" />
   </component>
 </project>

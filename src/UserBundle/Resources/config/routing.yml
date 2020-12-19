@@ -4,5 +4,5 @@ client_homepage:
 
 
 save_user:
-    path:  /save
-    defaults: { _controller: UserBundle:Default:save }
+    path:  /signup
+    defaults: { _controller: UserBundle:Default:signup }
