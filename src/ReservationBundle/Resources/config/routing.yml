@@ -1,3 +1,18 @@
-administration_homepage:
-    path:     /
-    defaults: { _controller: ReservationBundle:Default:index }
+reservation_reservation:
+    resource: "@ReservationBundle/Resources/config/routing/reservation.yml"
+    prefix:   /reservation
+
+add_reservation:
+    path: /reservation
+    defaults: { _controller: ReservationBundle:Reservation:addReservation}
+apropos_page:
+    path: /apropos
+    defaults: { _controller: ReservationBundle:Reservation:apropos}
+
+show_facture:
+    path: /facture
+    defaults: { _controller: ReservationBundle:Reservation:facturer}
+
+action_facture:
+    path: /facture/{id}/{action}
+    defaults: { _controller: ReservationBundle:Reservation:facturer}

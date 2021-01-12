@@ -20,8 +20,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3cf4f8-5fc1-42bf-8c15-8d09363de286" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ChambreBundle/Resources/views/Default/singleChambre.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChambreBundle/Resources/views/Default/updateChambre.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChambreBundle/Resources/views/Layout/factureLayout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReservationBundle/Entity/Invoices.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReservationBundle/Resources/views/Default/apropos.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReservationBundle/Resources/views/Default/reservation.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReservationBundle/Resources/views/Factures/facture.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReservationBundle/Services/PdfGenerator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/chambre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/cuisine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/cuisine2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/mehdi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/outside.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/picinechaufer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/wolf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Hotelerie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hotelerie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Entity/Chambre.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Entity/Chambre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Resources/views/Default/chambre.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Resources/views/Default/chambre.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChambreBundle/Resources/views/Layout/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChambreBundle/Resources/views/Layout/layout.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReservationBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReservationBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReservationBundle/Entity/Hosting.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReservationBundle/Entity/Hosting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReservationBundle/Entity/Reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReservationBundle/Entity/Reservation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReservationBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReservationBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserBundle/Entity/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Entity/Client.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserBundle/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserBundle/Resources/views/Default/inscription.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/views/Default/inscription.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserBundle/Resources/views/Default/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/views/Default/login.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +72,13 @@
     <execution>
       <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="6f6f4637-5d72-4451-9e71-b46275aa6334" />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,6 +124,10 @@
       <path value="$PROJECT_DIR$/vendor/fig/link-util" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kTH8VZZDheDbysjYWK4aJB01wD" />
@@ -86,17 +136,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/image" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Hotelerie\web\image" />
+      <recent name="D:\Hotelerie\web" />
+      <recent name="D:\Hotelerie\web\js" />
+      <recent name="D:\Hotelerie\web\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Hotelerie\src\ReservationBundle\Entity" />
+      <recent name="D:\Hotelerie\src\ReservationBundle\Resources\views" />
+      <recent name="D:\Hotelerie\src\ChambreBundle\Resources\views" />
+      <recent name="D:\Hotelerie\src\AppBundle\views" />
+      <recent name="D:\Hotelerie\web\image" />
+      <recent name="D:\Hotelerie\app\Resources" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -137,6 +198,19 @@
       <workItem from="1607451125217" duration="18000" />
       <workItem from="1608225793569" duration="16186000" />
       <workItem from="1608294585254" duration="17341000" />
+      <workItem from="1608374576332" duration="12820000" />
+      <workItem from="1608411301790" duration="2650000" />
+      <workItem from="1608460978717" duration="8323000" />
+      <workItem from="1608543669924" duration="11896000" />
+      <workItem from="1608630655104" duration="5256000" />
+      <workItem from="1608642568797" duration="21370000" />
+      <workItem from="1608717691845" duration="12628000" />
+      <workItem from="1608808171968" duration="7163000" />
+      <workItem from="1608890061289" duration="2612000" />
+      <workItem from="1608903285395" duration="5175000" />
+      <workItem from="1609699900494" duration="780000" />
+      <workItem from="1609880094411" duration="3268000" />
+      <workItem from="1610130304780" duration="943000" />
     </task>
     <servers />
   </component>
@@ -160,24 +234,27 @@
       <screen x="80" y="0" width="1456" height="864" />
     </state>
     <state x="578" y="234" key="#com.intellij.fileTypes.FileTypeChooser/80.0.1456.864@80.0.1456.864" timestamp="1608300974057" />
-    <state x="613" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1608322668120">
+    <state x="613" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1608812386172">
       <screen x="79" y="0" width="1457" height="864" />
     </state>
     <state x="613" y="114" key="#com.intellij.ide.util.MemberChooser/78.0.1458.864@78.0.1458.864" timestamp="1608234601425" />
-    <state x="613" y="114" key="#com.intellij.ide.util.MemberChooser/79.0.1457.864@79.0.1457.864" timestamp="1608322668120" />
+    <state x="613" y="114" key="#com.intellij.ide.util.MemberChooser/79.0.1457.864/1920.112.1298.768@79.0.1457.864" timestamp="1608738521309" />
+    <state x="613" y="114" key="#com.intellij.ide.util.MemberChooser/79.0.1457.864@79.0.1457.864" timestamp="1608812386172" />
     <state x="614" y="114" key="#com.intellij.ide.util.MemberChooser/80.0.1456.864@80.0.1456.864" timestamp="1608242546378" />
-    <state x="582" y="219" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608302647292">
-      <screen x="80" y="0" width="1456" height="864" />
+    <state x="420" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608544575449">
+      <screen x="79" y="0" width="1457" height="864" />
     </state>
+    <state x="420" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/79.0.1457.864@79.0.1457.864" timestamp="1608544575449" />
     <state x="582" y="219" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/80.0.1456.864@80.0.1456.864" timestamp="1608302647292" />
     <state x="2409" y="355" key="#com.intellij.tools.ToolEditorDialog" timestamp="1606689102186">
       <screen x="1920" y="152" width="1360" height="728" />
     </state>
     <state x="2409" y="355" key="#com.intellij.tools.ToolEditorDialog/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606689102186" />
-    <state x="538" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608324214793">
+    <state x="538" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608725939037">
       <screen x="79" y="0" width="1457" height="864" />
     </state>
-    <state x="538" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/79.0.1457.864@79.0.1457.864" timestamp="1608324214793" />
+    <state x="538" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/79.0.1457.864/1920.112.1298.768@79.0.1457.864" timestamp="1608497181010" />
+    <state x="538" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/79.0.1457.864@79.0.1457.864" timestamp="1608725939037" />
     <state x="2365" y="402" key="ComposerCompositePathDialog" timestamp="1606688881337">
       <screen x="1920" y="152" width="1360" height="728" />
     </state>
@@ -221,47 +298,58 @@
     <state width="1415" height="224" key="GridCell.Tab.0.right/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606088851277" />
     <state width="1415" height="223" key="GridCell.Tab.0.right/78.0.1458.864@78.0.1458.864" timestamp="1606734325556" />
     <state width="1413" height="223" key="GridCell.Tab.0.right/80.0.1456.864@80.0.1456.864" timestamp="1608248283794" />
-    <state x="648" y="311" key="NewPhpClassDialog" timestamp="1608300983052">
-      <screen x="80" y="0" width="1456" height="864" />
+    <state x="647" y="311" key="NewPhpClassDialog" timestamp="1608811053797">
+      <screen x="79" y="0" width="1457" height="864" />
     </state>
     <state x="716" y="119" key="NewPhpClassDialog/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606088699626" />
     <state x="647" y="311" key="NewPhpClassDialog/78.0.1458.864@78.0.1458.864" timestamp="1606732227758" />
+    <state x="647" y="311" key="NewPhpClassDialog/79.0.1457.864@79.0.1457.864" timestamp="1608811053797" />
     <state x="648" y="311" key="NewPhpClassDialog/80.0.1456.864@80.0.1456.864" timestamp="1608300983052" />
     <state x="643" y="356" key="NewPhpFileDialog" timestamp="1606088687251">
       <screen x="78" y="0" width="1458" height="864" />
     </state>
     <state x="643" y="356" key="NewPhpFileDialog/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606088687251" />
-    <state x="316" y="21" key="SettingsEditor" timestamp="1606732986393">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state x="323" y="21" key="SettingsEditor" timestamp="1609892306827">
+      <screen x="86" y="0" width="1450" height="864" />
     </state>
     <state x="2142" y="170" key="SettingsEditor/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606689452894" />
     <state x="316" y="77" key="SettingsEditor/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606081151213" />
     <state x="316" y="21" key="SettingsEditor/78.0.1458.864@78.0.1458.864" timestamp="1606732986393" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1608321412887">
+    <state x="323" y="21" key="SettingsEditor/86.0.1450.864@86.0.1450.864" timestamp="1609892306827" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1608810064619">
       <screen x="79" y="0" width="1457" height="864" />
     </state>
     <state width="498" height="446" key="SwitcherDM/78.0.1458.864@78.0.1458.864" timestamp="1606730208669" />
-    <state width="498" height="446" key="SwitcherDM/79.0.1457.864@79.0.1457.864" timestamp="1608321412887" />
+    <state width="498" height="446" key="SwitcherDM/79.0.1457.864@79.0.1457.864" timestamp="1608810064619" />
     <state x="2445" y="427" key="SymfonyPathDialog" timestamp="1606688910033">
       <screen x="1920" y="152" width="1360" height="728" />
     </state>
     <state x="2445" y="427" key="SymfonyPathDialog/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606688910033" />
+    <state x="263" y="74" width="1112" height="663" key="dock-window-1" timestamp="1608718246668">
+      <screen x="79" y="0" width="1457" height="864" />
+    </state>
+    <state x="2084" y="178" width="990" height="589" key="dock-window-1/79.0.1457.864/1920.112.1298.768@79.0.1457.864" timestamp="1608674833207" />
+    <state x="263" y="74" width="1112" height="663" key="dock-window-1/79.0.1457.864@79.0.1457.864" timestamp="1608718246668" />
     <state x="519" y="31" width="580" height="801" key="find.popup" timestamp="1608303359115">
       <screen x="80" y="0" width="1456" height="864" />
     </state>
     <state x="519" y="31" width="580" height="801" key="find.popup/80.0.1456.864@80.0.1456.864" timestamp="1608303359115" />
-    <state x="495" y="344" width="721" height="678" key="run.anything.popup" timestamp="1608235809635">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state x="502" y="344" width="718" height="678" key="run.anything.popup" timestamp="1609700602060">
+      <screen x="86" y="0" width="1450" height="864" />
     </state>
     <state x="484" y="344" width="672" height="677" key="run.anything.popup/62.0.1474.864/1920.152.1360.728@62.0.1474.864" timestamp="1605717831210" />
     <state x="2309" y="442" width="672" height="571" key="run.anything.popup/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606688952985" />
     <state x="495" y="344" width="672" height="677" key="run.anything.popup/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606085830262" />
     <state x="495" y="344" width="721" height="678" key="run.anything.popup/78.0.1458.864@78.0.1458.864" timestamp="1608235809635" />
-    <state x="470" y="182" width="721" height="679" key="search.everywhere.popup" timestamp="1608230192601">
-      <screen x="78" y="0" width="1458" height="864" />
+    <state x="497" y="344" width="721" height="678" key="run.anything.popup/79.0.1457.864/1920.112.1298.768@79.0.1457.864" timestamp="1608669661048" />
+    <state x="496" y="344" width="721" height="678" key="run.anything.popup/79.0.1457.864@79.0.1457.864" timestamp="1608385939626" />
+    <state x="502" y="344" width="718" height="678" key="run.anything.popup/86.0.1450.864@86.0.1450.864" timestamp="1609700602060" />
+    <state x="471" y="182" width="721" height="679" key="search.everywhere.popup" timestamp="1608723426671">
+      <screen x="79" y="0" width="1457" height="864" />
     </state>
     <state x="2286" y="305" width="672" height="572" key="search.everywhere.popup/78.0.1458.864/1920.152.1360.728@1920.152.1360.728" timestamp="1606682212221" />
     <state x="470" y="181" width="672" height="678" key="search.everywhere.popup/78.0.1458.864/1920.152.1360.728@78.0.1458.864" timestamp="1606084555485" />
     <state x="470" y="182" width="721" height="679" key="search.everywhere.popup/78.0.1458.864@78.0.1458.864" timestamp="1608230192601" />
+    <state x="471" y="182" width="721" height="679" key="search.everywhere.popup/79.0.1457.864@79.0.1457.864" timestamp="1608723426671" />
   </component>
 </project>

@@ -23,6 +23,13 @@ security:
             anonymous: ~
             # activate different ways to authenticate
             logout_on_user_change: true
+            provider: our_db_provider
+            form_login:
+                login_path: security_login
+                check_path: security_login
+            logout:
+                path: security_logout
+                target: add_reservation
             # https://symfony.com/doc/current/security.html#a-configuring-how-your-users-will-authenticate
             #http_basic: ~
 

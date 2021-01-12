@@ -167,6 +167,11 @@ class Chambre
     private $category;
 
     /**
+     * @ORM\ManyToOne(targetEntity="ReservationBundle\Entity\Reservation", inversedBy="chambres")
+     */
+    private $reservation;
+
+    /**
      * Chambre constructor.
 
      */

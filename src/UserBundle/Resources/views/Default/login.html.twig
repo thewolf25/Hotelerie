@@ -1,0 +1,18 @@
+{% extends "@Chambre/Layout/layout.html.twig" %}
+{% block body %}
+    <div class="customize_form">
+        <fieldset class="scheduler-border">
+            <legend class="scheduler-border">Update Chambre</legend>
+            <form action="{{ path('security_login') }}" method="post">
+                <div class="form-group">
+                    <label for="_username">username</label>
+                    <input class="form-control" type="text" name="_username" id="_username" placeholder="tapper votre Username ...">
+                </div>
+                <div class="form-group">
+                    <label for="_password">password</label>
+                    <input class="form-control" type="text" name="_password" id="_password" placeholder="tapper votre Password ...">
+                </div>
+                <button type="submit" class="btn btn-dark offset-4 col-4"> Conneter </button>
+            </form>
+        </fieldset>
+{% endblock %}

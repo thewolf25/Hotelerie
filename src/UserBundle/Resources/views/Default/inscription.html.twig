@@ -1,0 +1,27 @@
+{% extends "@Chambre/Layout/layout.html.twig" %}
+
+{% block stylesheet %}
+
+{% endblock %}
+
+{% block title %} {{ parent() }} - list des chambres {% endblock %}
+{% block body %}
+    <div class="customize_form">
+    <fieldset class="scheduler-border">
+    <legend class="scheduler-border">Inscription</legend>
+        {{ form_start(form) }}
+    {{ form_row(form.nom,{'label': 'nom','attr':{'placeholder' : 'nom'}}) }}
+    {{ form_row(form.prenom,{'label': 'prenom','attr':{'placeholder' : 'prenom'}}) }}
+
+    {{ form_row(form.username,{'label': 'nom d\'utilisateur ','attr':{'placeholder' : 'Nom d\'utilisateur'}}) }}
+        {{ form_row(form.email,{'label': 'email','attr':{'placeholder' : 'email'}}) }}
+        {{ form_row(form.telephone,{'label': 'telephone','attr':{'placeholder' : 'telephone'}}) }}
+    {{ form_row(form.identity,{'label': 'identity','attr':{'placeholder' : 'identity'}}) }}
+
+    {{ form_row(form.password,{'label': 'mot de passe ','attr':{'placeholder' : 'password'}}) }}
+        {{ form_row(form.confirmPassword,{'label': 'confirmer le mot de passe ','attr':{'placeholder' : 'retapper le mot de passe'}}) }}
+        <button type="submit" class="btn btn-dark offset-4 col-4"> inscription </button>
+    {{ form_end(form)}}
+    </fieldset>
+    </div>
+{% endblock %}

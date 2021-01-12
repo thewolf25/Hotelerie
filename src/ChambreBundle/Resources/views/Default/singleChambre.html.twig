@@ -1,0 +1,12 @@
+{% extends "Layout/layout.html.twig" %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}"/>
+{% endblock %}
+
+{% block title %} {{ parent() }} - list des chambres {% endblock %}
+{% block body %} <table border="1">
+    {{ dump(chambre) }}
+    </table>
+
+{% endblock %}

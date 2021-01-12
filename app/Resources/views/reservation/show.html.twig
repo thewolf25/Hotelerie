@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Reservation</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ reservation.id }}</td>
+            </tr>
+            <tr>
+                <th>Adulte_number</th>
+                <td>{{ reservation.adultenumber }}</td>
+            </tr>
+            <tr>
+                <th>Childen_number</th>
+                <td>{{ reservation.childennumber }}</td>
+            </tr>
+            <tr>
+                <th>Datestart</th>
+                <td>{% if reservation.dateStart %}{{ reservation.dateStart|date('Y-m-d') }}{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Dateend</th>
+                <td>{% if reservation.dateEnd %}{{ reservation.dateEnd|date('Y-m-d') }}{% endif %}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('reservation_index') }}">Back to the list</a>
+        </li>
+    </ul>
+{% endblock %}
