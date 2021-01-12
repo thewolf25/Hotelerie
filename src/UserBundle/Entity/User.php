@@ -4,12 +4,25 @@
 namespace UserBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
-
+use Symfony\Component\Validator\Constraints as Assert;
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 /**
  * @ORM\Entity
+ *
  * @ORM\InheritanceType("SINGLE_TABLE")
  * @ORM\DiscriminatorColumn(name="roles", type="string")
  * @ORM\DiscriminatorMap({"ADMIN"="Admin", "CLIENT"="Client","AGENT"="Agent"})
+ * @UniqueEntity(
+ *     fields={"email"},
+ *     errorPath="email",
+ *     message="l'email est déja utilisé."
+ * )
+ * @UniqueEntity(
+ *     fields={"telephone"},
+ *     errorPath="telephone",
+ *     message="le telephone est déja utilisé.")
+ *
+ *
  *
  */
 
@@ -36,6 +49,9 @@ abstract class User implements UserInterface
 
     /**
      * @ORM\Column (type="string",unique=true)
+     * @Assert\Email(
+     *     message = "l'email non valide."
+     * )
      */
     private $email;
 
@@ -53,6 +69,7 @@ abstract class User implements UserInterface
 
     /**
      * @ORM\Column (type="string",unique=false,nullable=false)
+     * @Assert\Length(min="8",minMessage="Votre mot de passe doit contenir au moins 8 caractére")
      *
      */
     private $password;
@@ -67,6 +84,26 @@ abstract class User implements UserInterface
      * @ORM\OneToMany(targetEntity="ReservationBundle\Entity\Reservation", mappedBy="client")
      */
     private $reservation;
+    /**
+     * @Assert\EqualTo(propertyPath="password",message="les mots de passe ne sont pas identiques")
+     */
+    private $confirmPassword;
+
+    /**
+     * @return mixed
+     */
+    public function getConfirmPassword()
+    {
+        return $this->confirmPassword;
+    }
+
+    /**
+     * @param mixed $confirmPassword
+     */
+    public function setConfirmPassword($confirmPassword)
+    {
+        $this->confirmPassword = $confirmPassword;
+    }
 
 
     /**
@@ -126,6 +163,22 @@ abstract class User implements UserInterface
     }
 
     /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param mixed $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
+    /**
      * @param mixed $email
      */
     public function setEmail($email)
@@ -170,7 +223,7 @@ abstract class User implements UserInterface
 
     public function getRoles()
     {
-        return $this->roles;
+        return ['CLIENT'];
     }
 
     public function getPassword()
@@ -190,5 +243,6 @@ abstract class User implements UserInterface
 
     public function eraseCredentials()
     {
+
     }
 }

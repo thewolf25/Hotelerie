@@ -1,0 +1,11 @@
+reservation_index:
+    path:     /reserve
+    defaults: { _controller: "ReservationBundle:Reservation:index" }
+    methods:  GET
+
+reservation_show:
+    path:     /{id}/show
+    defaults: { _controller: "ReservationBundle:Reservation:show" }
+    methods:  GET
+
+

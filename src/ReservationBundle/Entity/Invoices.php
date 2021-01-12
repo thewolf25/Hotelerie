@@ -2,13 +2,13 @@
 
 
 namespace ReservationBundle\Entity;
-
+use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity
  */
 
-class Hosting
+class Invoices
 {
     /**
      * @ORM\GeneratedValue
@@ -18,18 +18,13 @@ class Hosting
      */
     private $id;
     /**
-     * @ORM\Column (type="string",nullable=false)
+     * @ORM\Column (type="date",nullable=false)
+     *
      */
-    private $label;
+    private $date;
 
     /**
-     * @ORM\Column (type="float",nullable=false)
-     */
-    private $price;
-
-
-    /**
-     * @ORM\OneToMany(targetEntity="ReservationBundle\Entity\Reservation", mappedBy="hosting")
+     * @ORM\OneToOne(targetEntity="ReservationBundle\Entity\Reservation", mappedBy="invoice")
      */
     private $reservation;
 
@@ -52,33 +47,36 @@ class Hosting
     /**
      * @return mixed
      */
-    public function getLabel()
+    public function getDate()
     {
-        return $this->label;
+        return $this->date;
     }
 
     /**
-     * @param mixed $label
+     * @param mixed $date
      */
-    public function setLabel($label)
+    public function setDate($date)
     {
-        $this->label = $label;
+        $this->date = $date;
     }
 
     /**
      * @return mixed
      */
-    public function getPrice()
+    public function getReservation()
     {
-        return $this->price;
+        return $this->reservation;
     }
 
     /**
-     * @param mixed $price
+     * @param mixed $reservation
      */
-    public function setPrice($price)
+    public function setReservation($reservation)
     {
-        $this->price = $price;
+        $this->reservation = $reservation;
     }
+    //private $payment;
+
+
 
 }

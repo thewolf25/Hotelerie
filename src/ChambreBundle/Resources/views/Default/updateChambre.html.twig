@@ -1,0 +1,16 @@
+{% extends "@Chambre/Layout/layout.html.twig" %}
+
+{% block stylesheet %}
+{% endblock %}
+
+{% block title %} {{ parent() }} - update chambre  {% endblock %}
+{% block body %}
+    <div class="customize_form">
+    <fieldset class="scheduler-border">
+        <legend class="scheduler-border">Update Chambre</legend>
+        <form action="" method="POST">
+            {{ form_widget(Form) }}
+            <button type="submit" class="btn btn-dark offset-4 col-4"> update</button>
+        </form>
+    </fieldset>
+{% endblock %}

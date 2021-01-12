@@ -1,3 +1,15 @@
 chambre_homepage:
     path:     /listchambre
     defaults: { _controller: ChambreBundle:Default:listchambres }
+
+single_chambre:
+    path:     /single/{id}
+    defaults: { _controller: ChambreBundle:Default:getSingleChambre }
+
+update_chambre:
+    path:     /update/{id}
+    defaults: { _controller: ChambreBundle:Default:updateChambre }
+
+supprimer_chambre:
+    path: /supprimer/{id}
+    defaults: { _controller: ChambreBundle:Default:supprimerChambre }

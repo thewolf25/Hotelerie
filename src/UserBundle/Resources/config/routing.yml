@@ -1,8 +1,20 @@
 client_homepage:
-    path:     /
+    path:     /user
     defaults: { _controller: UserBundle:Default:index }
 
 
 save_user:
     path:  /save
     defaults: { _controller: UserBundle:Default:save }
+
+inscription_user:
+    path: /inscription
+    defaults: { _controller: UserBundle:Default:inscription }
+
+security_login:
+    path: /login
+    defaults: {_controller: UserBundle:Default:login}
+
+security_logout:
+    path: /logout
+    defaults: {_controller: UserBundle:Default:logout}
