@@ -13,3 +13,7 @@ update_chambre:
 supprimer_chambre:
     path: /supprimer/{id}
     defaults: { _controller: ChambreBundle:Default:supprimerChambre }
+
+add_chambre:
+    path: /addChambre
+    defaults: { _controller: ChambreBundle:Default:addChambre}

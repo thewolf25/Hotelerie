@@ -10,6 +10,7 @@ use Symfony\Component\HttpFoundation\Request ;
 use ReservationBundle\Entity\Reservation;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use ReservationBundle\Form\ReservationForm;
+use Symfony\Component\Security\Core\Security;
 
 use ReservationBundle\Services\PdfGenerator;
 
@@ -23,6 +24,7 @@ class ReservationController extends Controller
      * Lists all reservation entities.
      *
      */
+
     public function indexAction()
     {
         $em = $this->getDoctrine()->getManager();
@@ -45,9 +47,10 @@ class ReservationController extends Controller
             'reservation' => $reservation,
         ));
     }
-    
-    
+
+
     public function addReservationAction(Request $request){
+
 
         $em =$this->getDoctrine()->getManager();
         $chambres = $em->getRepository('ChambreBundle:Chambre')->findAll();
@@ -55,8 +58,14 @@ class ReservationController extends Controller
         $form = $this->createForm(ReservationForm::class,$Reservation);
         $form->handleRequest($request);
         $Reservation->setClient($this->getUser());
+
+
         if($form->isSubmitted() && $form->isValid())
         {
+            if($this->getUser() == null){
+
+                return $this->redirect("/login");
+            }
             //$this->generatepdf('@Reservation/Factures/facture.html.twig',array('reservation' => $Reservation));
             $invoice = new Invoices();
 
