@@ -1,33 +1,36 @@
-{% extends 'base.html.twig' %}
+{% extends "@Chambre/Layout/layout.html.twig" %}
 
+{% block stylesheet %}
+
+{% endblock %}
+
+{% block title %} {{ parent() }} - list des chambres {% endblock %}
 {% block body %}
     <h1>Reservations list</h1>
 
-    <table>
-        <thead>
+    <table class="table ">
+        <thead class="thead-dark">
             <tr>
-                <th>Id</th>
-                <th>Adulte_number</th>
-                <th>Childen_number</th>
-                <th>Datestart</th>
-                <th>Dateend</th>
-                <th>Actions</th>
+                <th scope="col">Id</th>
+                <th scope="col">Adulte_number</th>
+                <th scope="col" >Childen_number</th>
+                <th scope="col">Datestart</th>
+                <th scope="col">Dateend</th>
+                <th scope="col">Actions</th>
             </tr>
         </thead>
         <tbody>
         {% for reservation in reservations %}
             <tr>
-                <td><a href="{{ path('reservation_show', { 'id': reservation.id }) }}">{{ reservation.id }}</a></td>
+                <td scope="row" ><a href="{{ path('reservation_show', { 'id': reservation.id }) }}">{{ reservation.id }}</a></td>
                 <td>{{ reservation.adultenumber }}</td>
                 <td>{{ reservation.childennumber }}</td>
                 <td>{% if reservation.dateStart %}{{ reservation.dateStart|date('Y-m-d') }}{% endif %}</td>
                 <td>{% if reservation.dateEnd %}{{ reservation.dateEnd|date('Y-m-d') }}{% endif %}</td>
                 <td>
-                    <ul>
-                        <li>
-                            <a href="{{ path('reservation_show', { 'id': reservation.id }) }}">show</a>
-                        </li>
-                    </ul>
+
+                            <a class="btn btn-warning" href="{{ path('reservation_show', { 'id': reservation.id }) }}">show</a>
+
                 </td>
             </tr>
         {% endfor %}

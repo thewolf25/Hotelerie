@@ -6,7 +6,7 @@ use Symfony\Component\HttpFoundation\Request ;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-
+use ChambreBundle\Entity\Chambre;
 class DefaultController extends Controller
 {
     public function listchambresAction()
@@ -84,11 +84,11 @@ class DefaultController extends Controller
             $em->flush();
 
             return $this->redirect(
-                $this->generateUrl("parc_affichage_Chambre")
+                $this->generateUrl("chambre_homepage")
             );
         }
 
-        return $this->render("@Parc/Chambre/add.html.twig",
+        return $this->render("@Chambre/Default/addChambre.html.twig",
             array(
                 'Form'=>$form->createView()
             )

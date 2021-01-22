@@ -3,7 +3,7 @@ reservation_reservation:
     prefix:   /reservation
 
 add_reservation:
-    path: /reservation
+    path: /
     defaults: { _controller: ReservationBundle:Reservation:addReservation}
 apropos_page:
     path: /apropos
@@ -16,3 +16,6 @@ show_facture:
 action_facture:
     path: /facture/{id}/{action}
     defaults: { _controller: ReservationBundle:Reservation:facturer}
+list_reservation:
+    path: /listReservation
+    defaults: { _controller: ReservationBundle:Reservation:index}

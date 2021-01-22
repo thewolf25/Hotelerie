@@ -1,5 +1,10 @@
-{% extends 'base.html.twig' %}
+{% extends "@Chambre/Layout/layout.html.twig" %}
 
+{% block stylesheet %}
+
+{% endblock %}
+
+{% block title %} {{ parent() }} - list des chambres {% endblock %}
 {% block body %}
     <h1>Reservation</h1>
 
